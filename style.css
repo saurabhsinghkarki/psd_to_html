@@ -1,0 +1,512 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-div {
+  width: 1600px;
+  height: 900px;
+  background-color: #9e9c93;
+}
+
+.header_img {
+  position: absolute;
+  width: 1600px;
+  height: 900px;
+}
+
+nav {
+  position: absolute;
+  opacity: 0.529;
+  width: 1600px;
+  height: 70px;
+  background-color: rgba(86, 83, 76, 0.5294117647058824);
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  font-size: 30px;
+  letter-spacing: 9px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 400;
+font-family: 'League Script', cursive;
+  margin-left: 150px;
+}
+
+.nav_components {
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 4px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 300;
+font-family: 'Alegreya', serif;
+
+
+  position: absolute;
+  margin-left: 390px;
+}
+
+.nav_components h2,
+p {
+  margin-left: 25px;
+}
+
+.contact_logos {
+  display: flex;
+  position: absolute;
+  margin-left: 1390px;
+}
+.contact_logos img {
+  margin-left: 25px;
+}
+
+.twitter {
+  width: 16px;
+  height: 13px;
+}
+
+.facebook {
+  width: 8px;
+  height: 15px;
+}
+
+.instagram {
+  width: 14px;
+  height: 16px;
+  border-radius: 3px;
+}
+
+.circle {
+  position: absolute;
+  opacity: 0.5;
+  width: 939px;
+  height: 897px;
+  border-radius: 449px;
+  background-image: radial-gradient(
+    circle at center,
+    rgba(86, 79, 76, 0.9999999999999999) 0%,
+    rgba(86, 83, 76, 0) 100%,
+    rgba(86, 83, 76, 0) 100%
+  );
+  /* background-color: black; */
+margin-left: 326px;
+}
+
+.mainHeading{
+   position: absolute;
+   font-size: 80px;
+letter-spacing: 7px;
+line-height: 24px;
+color: #ffffff;
+font-family: 'Playfair Display SC', serif;
+filter: drop-shadow(0px 1px 0px #3d3029);
+margin-top: 340px;
+margin-left: 360px;
+}
+.tagline{
+   position: absolute;
+margin-top: 500px;
+margin-left: 500px;
+
+   width: 580px;
+height: 69px;
+font-size: 24px;
+letter-spacing: 2px;
+line-height: 36px;
+color: #ffffff;
+font-family: "Proxima Nova";
+text-align: center;
+filter: drop-shadow(0px 1px 0px #3d3029);
+}
+
+.menuButton{
+position: absolute;
+opacity: 0.529;
+width: 200px;
+height: 50px;
+background-color: rgba(86,83,76,0.5294117647058824);
+border: 1px solid #9e9c93;
+margin-top: 650px;
+margin-left: 700px;
+}
+
+.ourMenu{
+   position: absolute;
+   font-size: 14px;
+letter-spacing: 4px;
+line-height: 24px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: 'Alegreya', serif;
+
+margin-top: 665px;
+margin-left: 760px;
+}
+
+.artOfCake{
+  width: 1600px;
+  height: 760px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left_sec{
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.left_sec h1{
+  position: absolute;
+  font-size: 65px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #56534c;
+  font-weight: bold;
+  font-family: 'Alegreya', serif;
+  text-align: center;
+  margin-top: -250px;
+}
+
+.left_sec h4{
+  position: absolute;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #8a7952;
+  font-weight: bold;
+  font-family: 'Alegreya', serif;
+  text-align: center;
+  margin-top: -190px;
+  margin-left: -50px;
+}
+
+.left_sec .sentence {
+  width: 509px;
+height: 88px;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #56534c;
+font-family: "Proxima Nova";
+text-align: center;
+margin-left: -100px;
+margin-top: -100px;
+}
+
+.left_sec h2{
+  font-size: 24px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #56534c;
+font-weight: 700;
+font-family: "Alegreya";
+text-align: center;
+margin-top: 50px;
+margin-left: -140px;
+}
+
+.line1{
+  width: 111px;
+height: 1px;
+background-color: #d7d5ca;
+position: absolute;
+margin-top: 80px;
+margin-left: -60px;
+}
+
+.line2{
+  width: 111px;
+height: 1px;
+background-color: #d7d5ca;
+position: absolute;
+margin-left: -60px;
+margin-top: 150px;
+}
+
+.line3{
+  width: 111px;
+height: 1px;
+background-color: #d7d5ca;
+position: absolute;
+margin-top: 80px;
+margin-left: 215px;
+
+}
+
+.line4{
+  width: 111px;
+height: 1px;
+background-color: #d7d5ca;
+position: absolute;
+margin-top: 150px;
+margin-left: 215px;
+
+}
+
+
+.chef_img{
+  width: 100px;
+height: 100px;
+border-radius: 50px;
+/* background-color: #9e9c93; */
+background-color: red;
+position: absolute;
+}
+
+.chef_name_img{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 100px;
+margin-left: -150px;
+font-size: 24px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #56534c;
+font-weight: 400;
+font-family: "Alegreya";
+}
+
+.dialogue{
+font-size: 24px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #a47d5e;
+font-weight: 700;
+font-family: 'League Script', cursive;
+margin-top: 100px;
+margin-left: -50px;
+
+}
+
+.semiColumn1{
+position: absolute;
+font-family: 'League Script', cursive;
+opacity: 0.502;
+font-size: 60px;
+letter-spacing: 2px;
+line-height: 30px;
+color: #56534c;
+margin-top:-80px;
+rotate: 180deg;
+margin-left: -90px;
+font-weight: 700;
+
+  
+}
+.semiColumn2{
+position: absolute;
+font-family: 'League Script', cursive;
+opacity: 0.502;
+font-size: 60px;
+letter-spacing: 2px;
+line-height: 30px;
+color: #56534c;
+margin-top: 30px;
+margin-left: 400px;
+font-weight: 700;
+
+}
+
+.right_sec{
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 32px;
+}
+
+.right_sec img{
+width: 295px;
+height: 250px;
+}
+
+
+.border_box{
+  position: absolute;
+  width: 250px;
+  height: 210px;
+  border: 5px solid #ffffff;
+ 
+}
+
+.one{
+  margin-left: 870px;
+  margin-top: -622px;
+}
+
+.one{
+  margin-left: 870px;
+  margin-top: -622px;
+}
+.two{
+  margin-left: 1165px;
+  margin-top: -622px;
+}
+.three{
+  margin-left: 870px;
+  margin-top: -370px;
+}
+.forth{
+  margin-top: -370px;
+  margin-left: 1165px;
+}
+
+.design_img{
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 1020px;
+width: 250px;
+height: 250px;
+opacity: 0.8;
+}
+
+.taste_so_good{
+  font-size: 30px;
+letter-spacing: 2px;
+line-height: 36px;
+text-transform: uppercase;
+color: #c9b176;
+font-weight: 400;
+font-family: "Alegreya";
+text-align: center;
+width: 200px;
+position:absolute;
+margin-top: -425px;
+margin-left: 1050px;
+}
+
+.third_section{
+  width: 1600px;
+  height: 760px;
+  background: url(./assets/img\ \(7\).svg);
+  display: flex;
+}
+
+.third_sectionContent{
+  width:967px;
+  height:508px;
+  margin-top: 140px;
+  margin-left: 262px;
+  display: flex;
+}
+
+.pancake{
+  height: 550px;
+  width: 412px;
+}
+.third_sectionContent_div{
+  height: 450px;
+  background-color: #ffffff;
+  margin-left: -21px;
+  margin-top: 26px;
+  width: 550px;
+}
+
+.third_sectionContent_div h1{
+  font-size: 48px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #56534c;
+font-weight: 700;
+font-family: "Alegreya";
+margin-top: 70px;
+margin-left: 60px;
+}
+
+.third_sectionContent_div h6{
+ font-size: 20px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #a47d5e;
+font-weight: 700;
+font-family: "Alegreya";
+margin-left: 60px;
+margin-top: 20px;
+
+}
+
+.third_sectionContent_div p{
+  width: 420px;
+height: 58px;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #56534c;
+font-family: "Proxima Nova";
+margin-top: 50px;
+margin-left: 60px;
+
+}
+
+.third_sectionContent_div footer{
+display:flex;
+align-items: center;
+margin-top: 50px;
+margin-left: 30px;
+
+}
+
+.footer_img{
+  border-radius: 50%;
+height: 100px;
+width: 100px;
+}
+
+.arrow{
+  margin-top: 30px;
+}
+
+.side_box{
+width: 200px;
+height: 200px;
+background-color: #ffffff;
+position: absolute;
+margin-top: 50px;
+margin-left: 1100px;
+box-shadow: 5px 8px 8px 10px #c0bebe;
+}
+
+.side_box h3{
+font-size: 18px;
+letter-spacing: 2px;
+line-height: 30px;
+text-transform: uppercase;
+color: #a47d5e;
+font-weight: 700;
+font-family: "Alegreya";
+text-align: center;
+margin-top: 20px;
+}
+
+.side_box h1{
+  font-size: 80px;
+letter-spacing: 2px;
+line-height: 30px;
+color: #a47d5e;
+font-weight: bold;
+font-family: 'League Script', cursive;
+text-align: center;
+margin-top: 50px;
+}
+
+.side_box h6{
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  color: #a47d5e;
+  font-weight: 700;
+  font-family: "Alegreya";
+  text-align: center;
+}
+
+
+
+
